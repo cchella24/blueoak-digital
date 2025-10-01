@@ -33,6 +33,9 @@ jobs:
       - name: "Sanity: show tree"
         run: |
           ls -R
+      - name: "Install Playwright browser (required for live Payhip publish)"
+        run: |
+          python -m playwright install chromium --with-deps
 
       - name: Run pipeline (dry-run)
         env:
