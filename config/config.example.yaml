@@ -1,0 +1,21 @@
+brand:
+  name_env: BRAND_NAME
+  contact_email_env: CONTACT_EMAIL
+content:
+  llm_mode: "none"
+pricing:
+  default_price_env: DEFAULT_PRICE_USD
+trends:
+  geo: "US"
+  seeds:
+    - "budget planner"
+    - "project plan template"
+    - "sop checklist"
+    - "client onboarding template"
+    - "resume kit"
+    - "content calendar template"
+publishing:
+  currency: "USD"
+  visibility: "public"
+site:
+  products_json: "docs/products.json"

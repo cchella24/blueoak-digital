@@ -1,0 +1,7 @@
+reportlab==4.2.2
+pytrends==4.9.2
+playwright==1.47.0
+requests==2.32.3
+pillow==10.4.0
+pydantic==2.9.2
+PyYAML==6.0.2
