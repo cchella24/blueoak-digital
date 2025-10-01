@@ -30,7 +30,7 @@ jobs:
           pip install -r requirements.txt
           python -c "import sys, pkgutil; print(sys.version); print('yaml installed:', bool(pkgutil.find_loader('yaml')))"
 
-      - name: Sanity: show tree
+      - name: "Sanity: show tree"
         run: |
           ls -R
 
